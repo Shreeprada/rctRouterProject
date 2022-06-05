@@ -1,0 +1,43 @@
+.nav{
+    display:flex;
+    justify-content: space-around;
+    height:50px;
+    padding-top: 20px;
+}
+.link{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+.link:hover{
+    color:rgb(87, 85, 85);
+}
+.image{
+    width:30px;
+    height:30px;
+}
+.banner{
+    height:28px;
+    padding:auto;
+    background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.footer{
+    width:100%;
+    height:auto;
+    padding:20px;
+    display:flex;
+    justify-content: space-evenly;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    background-color: #f5f5f5;
+}
+
