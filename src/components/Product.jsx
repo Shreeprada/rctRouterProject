@@ -19,9 +19,13 @@ export const Product=()=>{
             {Object.keys(product).length === 0 ?<h3>Product does not exist</h3>:
             <div>
            <h3> Product Detail:</h3>
+           <div style={{border:"1 px solid blue"}}>
+               <img src={product.image} style={{width:"100%",height:"60%"}}/>
            <p> id :{product.id} </p>
            <p>Name :{product.name}</p> 
            <p>Price :{product.price}</p>
+           <button>Add to cart</button>
+           </div>
            </div>
         }
         </div>

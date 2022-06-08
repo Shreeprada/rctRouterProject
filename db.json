@@ -2,22 +2,26 @@
     {
        "name" :"SmartPhone",
        "price":30,
-       "id" :0
+       "id" :0,
+       "image":"https://placeimg.com/640/480/any"
     },
     {
        "name" :"Watch",
        "price" :20,
-        "id" :1
+        "id" :1,
+        "image":"https://placeimg.com/640/480/any"
     },
     {
        "name" :"Shirt",
        "price":50,
-       "id":2
+       "id":2,
+       "image":"https://placeimg.com/640/480/any"
     },
     {
        "name" :"Pants",
        "price" :100,
-        "id":3
+        "id":3,
+        "image":"https://placeimg.com/640/480/any"
     }
 ]
 }

@@ -30,12 +30,12 @@
   to {background-color: yellow;}
 }
 .footer{
-    width:100%;
+    /* width:99%; */
     height:auto;
     padding:20px;
     display:flex;
     justify-content: space-evenly;
-    position:fixed;
+    position:sticky;
     bottom:0px;
     left:0px;
     background-color: #f5f5f5;
